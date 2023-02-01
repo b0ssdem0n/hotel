@@ -1,0 +1,27 @@
+#reservation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#hotel-info {
+  width: 25%;
+  text-align: center;
+}
+
+#reservation-form {
+  width: 25%;
+  text-align: center;
+}
+
+#room-info {
+  width: 25%;
+  text-align: center;
+}
+
+#confirmation {
+  width: 25%;
+  text-align: center;
+  display: none;
+}
