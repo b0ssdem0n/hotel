@@ -1,0 +1,39 @@
+<div id="reservation-container">
+  <div id="hotel-info">
+    <h1>Hotel Name</h1>
+    <p>Address</p>
+    <p>Phone: (123) 456-7890</p>
+  </div>
+
+  <div id="reservation-form">
+    <form action="#">
+      <label for="check-in-date">Check-In Date:</label>
+      <input type="date" id="check-in-date" name="check-in-date">
+
+      <label for="check-out-date">Check-Out Date:</label>
+      <input type="date" id="check-out-date" name="check-out-date">
+
+      <label for="guest-count">Number of Guests:</label>
+      <input type="number" id="guest-count" name="guest-count" min="1">
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="room-info">
+    <h2>Available Rooms:</h2>
+    <ul>
+      <li>Single Room</li>
+      <li>Double Room</li>
+      <li>Suite</li>
+    </ul>
+  </div>
+
+  <div id="confirmation">
+    <p>Thank you for your reservation!</p>
+    <p>Details:</p>
+    <p>Check-In: <span id="confirm-check-in"></span></p>
+    <p>Check-Out: <span id="confirm-check-out"></span></p>
+    <p>Guests: <span id="confirm-guest-count"></span></p>
+  </div>
+</div>
