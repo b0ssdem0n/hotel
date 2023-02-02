@@ -10,23 +10,81 @@
     <h1>Hotel Name</h1>
     <p>Address</p>
     <p>Phone: (123) 456-7890</p>
+    <br>
   </div>
 
-  <div id="reservation-form">
-    <form action="#">
-      <label for="check-in-date">Check-In Date:</label>
-      <input type="date" id="check-in-date" name="check-in-date">
+ <head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-      <label for="check-out-date">Check-Out Date:</label>
-      <input type="date" id="check-out-date" name="check-out-date">
+<body>
+  <div id="reservation-container">
+    <div id="guest-info">
+      <h1>Guest Information</h1>
+      <form action="#">
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name"><br>
 
-      <label for="guest-count">Number of Guests:</label>
-      <input type="number" id="guest-count" name="guest-count" min="1">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name"><br>
 
-      <button type="submit">Submit</button>
-    </form>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title"><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country"><br>
+
+        <label for="language">Language:</label>
+        <input type="text" id="language" name="language"><br>
+
+        <label for="vip-status">VIP Status:</label>
+        <input type="checkbox" id="vip-status" name="vip-status"><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br>
+
+        <label for="zip-code">Zip Code:</label>
+        <input type="text" id="zip-code" name="zip-code"><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br>
+
+        <label for="membership-type">Membership Type:</label>
+        <input type="text" id="membership-type" name="membership-type"><br>
+
+        <label for="member-number">Member Number:</label>
+        <input type="text" id="member-number" name="member-number"><br>
+
+        <label for="member-level">Member Level:</label>
+        <input type="text" id="member-level" name="member-level"><br>
+
+        <label for="agent">Agent:</label>
+        <input type="text" id="agent" name="agent"><br>
+
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company"><br>
+
+        <label for="group-contact">Group Contact:</label>
+        <input type="text" id="group-contact" name="group-contact"><br>
+
+        <label for="source">Source:</label>
+        <input type="text" id="source" name="source"><br>
+      </form>
+    </div>
+<br>
+    <div id="reservation-details">
+      <h1>Reservation Details</h1>
+      <form action="#">
+        <label for="arrival-date">Arrival Date:</label>
+        <input type="date" id="arrival-date" name="arrival-date">
+
+        <label for="number-of-nights">Number of Nights:</label>
+        <input type="number"
   </div>
-
+<br>
   <div id="room-info">
     <h2>Available Rooms:</h2>
     <ul>
@@ -35,7 +93,7 @@
       <li>Suite</li>
     </ul>
   </div>
-
+<br>
   <div id="confirmation">
     <p>Thank you for your reservation!</p>
     <p>Details:</p>
@@ -45,3 +103,9 @@
   </div>
 </div>
 </body>
+
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
